@@ -1,0 +1,13 @@
+import "canvas"
+
+w = 800   h = 600
+window("Canvas exanple", w, h)
+
+color(#ffffff)
+frect(0, 0, w, h)
+
+color(#ff0000)
+line(0, 0, w, h)
+repaint()
+
+//EOF
